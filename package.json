@@ -1,0 +1,29 @@
+{
+  "name": "pizza-back",
+  "version": "1.0.0",
+  "description": "Back-end do software web de um delivery de pizza",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx --watch ./src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saittu/Piza-Back.git"
+  },
+  "author": "Jean & João - inspired by rocketseat exercise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saittu/Piza-Back/issues"
+  },
+  "homepage": "https://github.com/Saittu/Piza-Back#readme",
+  "dependencies": {
+    "fastify": "^5.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "drizzle-kit": "^0.30.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
